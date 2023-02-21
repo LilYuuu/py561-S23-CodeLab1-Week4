@@ -1,5 +1,8 @@
-# FILL IN INFO ABOUT YOUR GAME HERE. 
+# Lily's HW4: Saving Data to A List
 
-DO NOT LEAVE IT LIKE THIS!!!
+This assignment is based on the one from last week.
 
-Please? Please, give me content. I'm begging you. It's not that hard. Thanks.
+I made several modifications:
+* Instead of saving the best record, ie. the shortest time used, to a variable, it is now saving records to a list.
+* Added a `inGame` boolean variable to control the states, which makes it easier to switch between scenes and display different text.
+* Used `currTime += Time.DeltaTime` for the timer, and used `inGame` to check if the user is currently in game, and if not, clear the timer.
